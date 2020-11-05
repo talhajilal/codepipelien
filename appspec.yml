@@ -15,4 +15,7 @@ hooks:
     - location: scripts/stop_server
       timeout: 300
       runas: root
-
+  WebContent:
+     - localtion: scripts/webContent
+       timeout: 300
+       runas: root
